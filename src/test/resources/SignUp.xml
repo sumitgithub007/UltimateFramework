@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SignUpFolio" data-provider-thread-count="4" >
+    <listeners>
+        <listener class-name="com.fujitsu.core.listener.TestListener"/>
+        <listener class-name="com.fujitsu.core.listener.MethodInterceptor"/>
+        <listener class-name="com.fujitsu.core.listener.AnnotationTransformer"/>
+        
+    </listeners>
+    
+      <test name="SignUpTesT" thread-count="4" >
+        <classes>
+            <class name="com.fujitsu.tests.SignUpTest"></class>
+        </classes>
+    </test>
+<!--    <test name="LoginTest" thread-count="2" >
+        <classes>
+            <class name="com.fujitsu.tests.LoginTest"></class>
+        </classes>
+    </test>-->
+ <!--<test name="ProductPurchaseTest" thread-count="2" >
+        <classes>
+            <class name="com.fujitsu.tests.ProductPurchaseTest"></class>
+        </classes>
+    </test>-->
+</suite>
+

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My suite">
+    <listeners>
+        <listener class-name="com.qasecret.core.listener.TestListener" />
+        <listener class-name="com.qasecret.core.listener.MethodInterceptor" />
+        <listener class-name="com.qasecret.core.listener.AnnotationTransformer" />
+        <listener class-name="com.qasecret.core.listener.TestListener" />
+    </listeners>
+    <suite-files>
+        <suite-file path="src/test/resources/Portfolio.xml" />
+    </suite-files>
+</suite>
