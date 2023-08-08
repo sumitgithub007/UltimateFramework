@@ -43,7 +43,7 @@ public final class DriverFactory {
             } else {
               
             	//System.setProperty("webdriver.chrome.driver", FrameworkConstants.CHROMEDRIVERPATH);            	
-            	 WebDriverManager.chromedriver().setup();
+            	//WebDriverManager.chromedriver().setup();
              	driver = new ChromeDriver ();
             }
         } else if (browser.equalsIgnoreCase ("firefox")) {

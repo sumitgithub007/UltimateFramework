@@ -1,3 +1,4 @@
 docker-compose up --scale chrome=5 --scale edge=5 -d
 
   
+docker compose -f docker-compose.yml up -d  //This command should be executed from cmd
