@@ -9,12 +9,39 @@
     
     
      
-  <!--   <test name="LoginTest" thread-count="10" >
+   <test name="LoginTest" thread-count="10" >
         <classes>
             <class name="com.fujitsu.tests.LoginTest"></class>
         </classes>
-    </test> -->
-  <test name="ProductPurchaseTest" thread-count="10" >
+    </test>  
+    
+    <test name="LoginTest2" thread-count="10" >
+        <classes>
+            <class name="com.fujitsu.tests.LoginTest2"></class>
+        </classes>
+    </test>  
+    
+     <test name="LoginTest3" thread-count="10" >
+        <classes>
+            <class name="com.fujitsu.tests.LoginTest3"></class>
+        </classes>
+    </test>  
+    
+    
+     <test name="LoginTest5" thread-count="10" >
+        <classes>
+            <class name="com.fujitsu.tests.LoginTest5"></class>
+        </classes>
+    </test>  
+    
+    
+    
+    
+    
+    
+    
+    
+    <test name="ProductPurchaseTest" thread-count="10" >
         <classes>
             <class name="com.fujitsu.tests.ProductPurchaseTest"></class>
         </classes>
